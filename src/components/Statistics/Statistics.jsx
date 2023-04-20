@@ -3,7 +3,7 @@ import css from "./Statistics.module.css"
 
 export const Statistics = ({ title, stats }) => (
     <section className={css.statistics}>
-        {title && <h2 class="title">Upload stats</h2>}
+        {title && <h2 className="title">Upload stats</h2>}
         
          <ul className={css.statList}>
             {stats.map(({ id, label, percentage }) => (<li key={id} className={css.item}>
