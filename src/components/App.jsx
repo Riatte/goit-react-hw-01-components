@@ -20,7 +20,7 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
         flexDirection: 'column',
-        marginTop: '20px'
+        marginTop: '900px'
       }}
     >
        <Profile 
