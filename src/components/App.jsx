@@ -3,7 +3,7 @@ import data from '../components/Statistics/data.json';
 import friends from '../components/Friends/friends.json';
 import transactions from '../components/Transaction/transactions.json';
 
-
+import { GlobalStyle } from './GlobalStyle';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './Friends/FriendList';
@@ -33,7 +33,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-      
+      <GlobalStyle />
       
     </div>    
   );
